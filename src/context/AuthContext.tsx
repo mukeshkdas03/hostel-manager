@@ -75,12 +75,12 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         case 'student':
           userData = {
             id: '1',
-            name: 'John Doe',
+            name: 'Mukesh Das',
             email,
             role: 'student',
             roomNumber: 'A-101',
             rollNumber: 'ST12345',
-            parentContact: '+1234567890',
+            parentContact: '+91 9769884860',
           };
           break;
         case 'mess':
